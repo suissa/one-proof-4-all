@@ -1,0 +1,64 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "JSONPlaceholder Wrapper for API Test Dialect",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/posts/{id}": {
+      "get": {
+        "summary": "Get a single post",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Post found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": { "type": "integer" },
+                    "userId": { "type": "integer" },
+                    "title": { "type": "string" },
+                    "body": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/posts": {
+      "post": {
+        "summary": "Create a new post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": { "type": "string" },
+                  "body": { "type": "string" },
+                  "userId": { "type": "integer" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Post created"
+          }
+        }
+      }
+    }
+  }
+}

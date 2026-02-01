@@ -1,0 +1,60 @@
+
+ [1m[35m one-proof-4-all [0m [2mv0.2.0[0m
+
+ [96mDEV[0m [2mScanning for [36m.spec.ts[0m files in [90m/mnt/d/www/Freelas/PROJETOS_OPENSOURCE/MEUS/@purecore/canonical/one-spec-4-all/purecore-one-spec-4-all[0m[0m
+
+ [2mFound[0m [1m5[0m [2mtest files[0m
+
+[90m ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ[0m
+
+
+[K [1m[32mÔ£ô[0m [90mexamples/[0m[36mimperative.spec.ts[0m [1m[32m4 passed[0m [90m(7ms)[0m
+   [1m[32mÔ£ô[0m [2mSistema de Seguran├ºa e Compliance ÔÇ║ Deve bloquear conex├Áes de IPs na blacklist[0m [90m7ms[0m
+   [1m[32mÔ£ô[0m [2mSistema de Seguran├ºa e Compliance ÔÇ║ Deve registrar auditoria para cada acesso[0m [90m8ms[0m
+   [1m[32mÔ£ô[0m [2mValida├º├úo Estrutural da API V2 ÔÇ║ Payload deve conter metadados corretos[0m [90m2ms[0m
+   [1m[32mÔ£ô[0m [2mValida├º├úo Estrutural da API V2 ÔÇ║ Campos obrigat├│rios devem existir[0m [90m2ms[0m
+
+
+[K [1m[32mÔ£ô[0m [90mexamples/[0m[36mmath.spec.ts[0m [1m[32m4 passed[0m [90m(4ms)[0m
+   [1m[32mÔ£ô[0m [2mTeoria Financeira: Juros Compostos ÔÇ║ O capital deve crescer exponencialmente[0m [90m8ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria Financeira: Juros Compostos ÔÇ║ Taxa zero implica em imutabilidade do capital[0m [90m6ms[0m
+   [1m[32mÔ£ô[0m [2m├ülgebra Booleana: Leis de De Morgan ÔÇ║ A nega├º├úo da disjun├º├úo ├® a conjun├º├úo das nega├º├Áes[0m [90m10ms[0m
+   [1m[32mÔ£ô[0m [2mAn├ílise de Fun├º├Áes Recursivas ÔÇ║ Fatorial de 5 converge para 120[0m [90m1ms[0m
+
+
+[K [1m[32mÔ£ô[0m [90mexamples/[0m[36mnarrative.spec.ts[0m [1m[32m3 passed[0m [90m(4ms)[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ O cliente finaliza a compra com sucesso[0m [90m1ms[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ O sistema deve lidar com falha no pagamento[0m [90m5ms[0m
+   [1m[32mÔ£ô[0m [2mOnboarding de Novos Membros ÔÇ║ Deve criar perfil padr├úo ao registrar[0m [90m2ms[0m
+
+
+[K [1m[32mÔ£ô[0m [90mexamples/[0m[36mpolyglot-shopping-cart.spec.ts[0m [1m[32m14 passed[0m [90m(5ms)[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Desconto de 10% em R$100 implica R$90[0m [90m6ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Desconto de 0% preserva o valor original[0m [90m8ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Desconto de 100% anula o pre├ºo[0m [90m3ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Total de carrinho vazio converge para zero[0m [90m2ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Total de 3 itens a R$10 cada (qty=2) implica R$60[0m [90m9ms[0m
+   [1m[32mÔ£ô[0m [2mTeoria de C├ílculo de Pre├ºos ÔÇ║ Imposto de 10% sobre R$100 resulta em R$110[0m [90m4ms[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ Usu├írio adiciona primeiro produto ao carrinho[0m [90m7ms[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ Usu├írio aplica cupom de desconto[0m [90m3ms[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ Usu├írio remove item e carrinho fica vazio[0m [90m8ms[0m
+   [1m[32mÔ£ô[0m [2mJornada de Compra do Usu├írio ÔÇ║ Usu├írio n├úo logado tenta finalizar compra[0m [90m9ms[0m
+   [1m[32mÔ£ô[0m [2mConformidade com Gateway de Pagamento v2.1 ÔÇ║ Transa├º├úo bem-sucedida retorna status 200[0m [90m1ms[0m
+   [1m[32mÔ£ô[0m [2mConformidade com Gateway de Pagamento v2.1 ÔÇ║ TransactionId segue padr├úo RFC do contrato[0m [90m5ms[0m
+   [1m[32mÔ£ô[0m [2mConformidade com Gateway de Pagamento v2.1 ÔÇ║ Toda transa├º├úo deve ser logada para auditoria[0m [90m8ms[0m
+   [1m[32mÔ£ô[0m [2mConformidade com Gateway de Pagamento v2.1 ÔÇ║ Gateway deve ser acionado exatamente uma vez por request[0m [90m4ms[0m
+
+
+[K [1m[32mÔ£ô[0m [90mexamples/[0m[36msanity.spec.ts[0m [1m[32m3 passed[0m [90m(2ms)[0m
+   [1m[32mÔ£ô[0m [2mTeoria dos Conjuntos (Dialeto Matem├ítico) ÔÇ║ f deve mapear para 10[0m [90m1ms[0m
+   [1m[32mÔ£ô[0m [2mAutentica├º├úo de Usu├írio (Dialeto Narrativo) ÔÇ║ login bem sucedido[0m [90m6ms[0m
+   [1m[32mÔ£ô[0m [2mServi├ºo de Pagamento (Dialeto Imperativo) ÔÇ║ status da API ├® 200[0m [90m4ms[0m
+
+[90m ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ ÔöÇ[0m
+
+ [1mTest Files[0m  [1m[32m5 passed[0m [2m(5)[0m
+ [1m     Tests[0m  [1m[32m28 passed[0m [2m(28)[0m
+ [1m  Duration[0m  22ms
+
+ [42m[1m[30m PASS [0m [1m[32mAll tests passed![0m
+
