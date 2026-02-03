@@ -1,0 +1,23 @@
+# Exclude everything by default if needed, but 'files' in package.json is better.
+# List things to EXCLUDE even if they might be picked up:
+
+docs/
+examples/
+reports/
+slides/
+infograficos/
+podcast/
+www/
+landing-page/
+critica.md
+tabela.html
+output.log
+*.spec.ts
+tsconfig.json
+bunfig.toml
+bun.lock
+.agent/
+.qoder/
+.git/
+node_modules/
+dist/**/*.map
