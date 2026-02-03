@@ -264,7 +264,7 @@ await ApiSpec.define("Get User")
 - `.withAuth(token)` - Authentication
 - `.timeout(ms)` - Set timeout
 
-> 📚 [Complete API Testing Documentation](./docs/api-teste-api.md)
+> 📚 [Complete API Testing Documentation](./docs/api-api.md)
 
 ### 🏃 Running API Tests
 
@@ -363,7 +363,7 @@ ensure("Payment Gateway v2.1 Compliance", () => {
 - [📐 Mathematical Dialect API](./docs/api-matematico.md)
 - [📖 Narrative Dialect API](./docs/api-narrativo.md)
 - [🛡️ Imperative Dialect API](./docs/api-imperativo.md)
-- [🌐 API Testing Dialect API](./docs/api-teste-api.md)
+- [🌐 API Testing Dialect API](./docs/api-api.md)
 
 ### Examples
 - [📐 Mathematical Example](./examples/math.spec.ts)
