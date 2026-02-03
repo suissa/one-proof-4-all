@@ -8,35 +8,35 @@
 
 ## Estrutura
 
-| Função | Descrição | Equivalente Supertest/Axios |
-| :--- | :--- | :--- |
-| `ApiSpec.define(name)` | Inicia a definição de um novo teste de API | `describe` / `it` |
-| `.from(url)` | Define a URL base para a requisição | `request(app)` / `axios.create` |
-| `.get(path)` | Configura uma requisição GET | `.get(path)` |
-| `.post(path, body)` | Configura uma requisição POST com corpo | `.post(path).send(body)` |
-| `.put(path, body)` | Configura uma requisição PUT com corpo | `.put(path).send(body)` |
-| `.delete(path)` | Configura uma requisição DELETE | `.delete(path)` |
-| `.method(verb, path)` | Define um método HTTP arbitrário | `.request({method, url})` |
+| Função                 | Descrição                                  | Equivalente Supertest/Axios         |
+| :----------------------- | :------------------------------------------- | :---------------------------------- |
+| `ApiSpec.define(name)` | Inicia a definição de um novo teste de API | `describe` / `it`               |
+| `.from(url)`           | Define a URL base para a requisição        | `request(app)` / `axios.create` |
+| `.get(path)`           | Configura uma requisição GET               | `.get(path)`                      |
+| `.post(path, body)`    | Configura uma requisição POST com corpo    | `.post(path).send(body)`          |
+| `.put(path, body)`     | Configura uma requisição PUT com corpo     | `.put(path).send(body)`           |
+| `.delete(path)`        | Configura uma requisição DELETE            | `.delete(path)`                   |
+| `.method(verb, path)`  | Define um método HTTP arbitrário           | `.request({method, url})`         |
 
 ## Configuração da Requisição
 
-| Função | Descrição | Equivalente |
-| :--- | :--- | :--- |
-| `.header(key, val)` | Adiciona um cabeçalho à requisição | `.set(key, val)` |
-| `.withBody(body)` | Define ou sobrescreve o corpo da requisição | `.send(body)` |
-| `.withAuth(token)` | Atalho para Header Authorization Bearer | `.set('Authorization', 'Bearer ...')` |
+| Função              | Descrição                                   | Equivalente                             |
+| :-------------------- | :-------------------------------------------- | :-------------------------------------- |
+| `.header(key, val)` | Adiciona um cabeçalho à requisição        | `.set(key, val)`                      |
+| `.withBody(body)`   | Define ou sobrescreve o corpo da requisição | `.send(body)`                         |
+| `.withAuth(token)`  | Atalho para Header Authorization Bearer       | `.set('Authorization', 'Bearer ...')` |
 
 ## Asserções
 
-| Função | Descrição | Equivalente Jest/Chai |
-| :--- | :--- | :--- |
-| `.shouldReturn(status)` | Verifica o Status Code HTTP retornado | `expect(res.status).toBe(status)` |
-| `.matchingSchema(schema)` | Valida se a resposta corresponde ao schema (tipagem nominal) | `expect(res.body).toMatchSchema(schema)` |
+| Função                           | Descrição                                                  | Equivalente Jest/Chai                      |
+| :----------------------------------------------- | :----------------------------------------------------------- | :----------------------------------------- |
+| `.shouldReturn(status)`                        | Verifica o Status Code HTTP retornado                        | `expect(res.status).toBe(status)`        |
+| `.matchingSchema(schema)`                      | Valida se a resposta corresponde ao schema (tipagem nominal) | `expect(res.body).toMatchSchema(schema)` |
 
 ## Execução
 
-| Função | Descrição | O que faz |
-| :--- | :--- | :--- |
+| Função   | Descrição                              | O que faz                                                        |
+| :--------- | :--------------------------------------- | :--------------------------------------------------------------- |
 | `.run()` | Executa a requisição e as validações | Dispara o fetch, valida status, valida schema e loga o resultado |
 
 ## Exemplo Completo
