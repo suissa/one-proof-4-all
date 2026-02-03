@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Release] v1.0.0
+
+### What's Changed
+
+- :rocket: **release**: Official v1.0.0 release.
+- :wrench: **chore**: Optimized package size for npm by adding `files` field to `package.json` and creating `.npmignore`.
+- :memo: **docs**: Standardized all dialect documentation (`api-api.md`, `api-matematico.md`, etc.).
+- :art: **style**: Improved visual documentation tables.
+
 ## [Release] v0.4.1
 
 ### What's Changed
